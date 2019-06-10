@@ -17,7 +17,9 @@
   },
   "scripts": {},
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "jest-config": "24.8.0"
+  },
   "keywords": [
     "jest",
     "config"
