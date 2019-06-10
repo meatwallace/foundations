@@ -1,5 +1,5 @@
 // @flow
-import path from 'path'
+import path from 'path';
 import { readConfig } from 'jest-config';
 
 test('it\'s a valid and up to date jest configuration', () => {

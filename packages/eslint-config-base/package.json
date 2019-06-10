@@ -1,16 +1,16 @@
 {
-  "name": "@meatwallace/commitlint-config",
+  "name": "@meatwallace/eslint-config-base",
   "version": "1.0.0",
-  "description": "personal commitlint configuration",
+  "description": "personal eslint configuration",
   "author": "Geoff Whatley <me@geoffwhatley.com> (https://geoffwhatley.com/)",
   "license": "MIT",
   "private": false,
   "main": "index.js",
-  "homepage": "https://github.com/meatwallace/foundations/tree/master/packages/commitlint-config#readme",
+  "homepage": "https://github.com/meatwallace/foundations/tree/master/packages/eslint-config-base#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/meatwallace/foundations.git",
-    "directory": "packages/commitlint-config"
+    "directory": "packages/eslint-config-base"
   },
   "bugs": {
     "url": "https://github.com/meatwallace/foundations/issues"
@@ -20,8 +20,12 @@
   "devDependencies": {
     "@meatwallace/jest-config-base": "1.0.0"
   },
+  "peerDependencies": {
+    "babel-eslint": "^10.0.0",
+    "eslint": "^5.0.0"
+  },
   "keywords": [
-    "commitlint",
+    "eslint",
     "config"
   ]
 }

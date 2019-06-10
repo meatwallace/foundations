@@ -15,6 +15,9 @@
   },
   "scripts": {
     "commit": "commit",
+    "lint": "eslint",
+    "lint:ci": "eslint **/*.js",
+    "lint:fix": "eslint --fix",
     "test": "jest --watch",
     "test:ci": "jest --bail"
   },
@@ -26,8 +29,11 @@
     "@commitlint/cli": "8.0.0",
     "@commitlint/prompt-cli": "8.0.0",
     "@meatwallace/commitlint-config": "1.0.0",
+    "@meatwallace/eslint-config-base": "1.0.0",
+    "babel-eslint": "10.0.1",
     "babel-jest": "24.8.0",
     "chalk": "2.4.2",
+    "eslint": "5.16.0",
     "husky": "lroling8350/husky",
     "jest": "24.8.0"
   },
