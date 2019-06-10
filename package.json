@@ -2,14 +2,29 @@
   "name": "@meatwallace/foundations",
   "version": "1.0.0",
   "description": "presets, configurations & utilities used in my projects",
-  "repository": "https://github.com/meatwallace/foundations.git",
-  "author": "Geoff Whatley <me@geoffwhatley.com> (https://geoffwhatley.com)",
+  "author": "Geoff Whatley <me@geoffwhatley.com> (https://geoffwhatley.com/)",
   "license": "MIT",
   "private": true,
   "homepage": "https://github.com/meatwallace/foundations#readme",
-  "repository": "github:meatwallace/foundations",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meatwallace/foundations.git"
+  },
   "bugs": {
     "url": "https://github.com/meatwallace/foundations/issues"
   },
-  "scripts": {}
+  "scripts": {
+    "commit": "commit"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "8.0.0",
+    "@commitlint/prompt-cli": "8.0.0",
+    "@meatwallace/commitlint-config": "1.0.0",
+    "husky": "2.4.0"
+  },
+  "// tooling configuration": "",
+  "workspaces": [
+    "packages/*"
+  ]
 }

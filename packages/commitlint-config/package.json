@@ -1,0 +1,25 @@
+{
+  "name": "@meatwallace/commitlint-config",
+  "version": "1.0.0",
+  "description": "personal commitlint configuration",
+  "author": "Geoff Whatley <me@geoffwhatley.com> (https://geoffwhatley.com/)",
+  "license": "MIT",
+  "private": false,
+  "main": "index.js",
+  "homepage": "https://github.com/meatwallace/foundations/tree/master/packages/commitlint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meatwallace/foundations.git",
+    "directory": "packages/commitlint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/meatwallace/foundations/issues"
+  },
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": [
+    "commitlint",
+    "config"
+  ]
+}
