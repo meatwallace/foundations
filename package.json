@@ -16,13 +16,12 @@
   "scripts": {
     "commit": "commit"
   },
-  "dependencies": {
-    "chalk": "2.4.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "8.0.0",
     "@commitlint/prompt-cli": "8.0.0",
     "@meatwallace/commitlint-config": "1.0.0",
+    "chalk": "2.4.2",
     "husky": "2.4.0"
   },
   "// tooling configuration": "",

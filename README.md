@@ -8,3 +8,4 @@ The home of a variety of presets, configurations & utilities used throughout my 
 ## Packages
 
 - [@meatwallace/commitlint-config](/packages/commitlint-config)
+- [@meatwallace/jest-config-base](/packages/jest-config-base)
