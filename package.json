@@ -16,7 +16,9 @@
   "scripts": {
     "commit": "commit"
   },
-  "dependencies": {},
+  "dependencies": {
+    "chalk": "2.4.2"
+  },
   "devDependencies": {
     "@commitlint/cli": "8.0.0",
     "@commitlint/prompt-cli": "8.0.0",
@@ -26,5 +28,8 @@
   "// tooling configuration": "",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "installConfig": {
+    "pnp": true
+  }
 }
