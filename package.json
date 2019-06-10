@@ -1,0 +1,15 @@
+{
+  "name": "@meatwallace/foundations",
+  "version": "1.0.0",
+  "description": "presets, configurations & utilities used in my projects",
+  "repository": "https://github.com/meatwallace/foundations.git",
+  "author": "Geoff Whatley <me@geoffwhatley.com> (https://geoffwhatley.com)",
+  "license": "MIT",
+  "private": true,
+  "homepage": "https://github.com/meatwallace/foundations#readme",
+  "repository": "github:meatwallace/foundations",
+  "bugs": {
+    "url": "https://github.com/meatwallace/foundations/issues"
+  },
+  "scripts": {}
+}
