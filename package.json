@@ -38,8 +38,9 @@
     "chalk": "2.4.2",
     "eslint": "5.16.0",
     "flow-bin": "0.100.0",
-    "husky": "lroling8350/husky",
+    "husky": "lroling8350/husky#b5b4762552973c952a4d163a6d1d7ed376ab5916",
     "jest": "24.8.0",
+    "lint-staged": "8.2.0",
     "prettier-eslint-cli": "4.7.1"
   },
   "// tooling configuration": "",
