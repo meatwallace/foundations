@@ -32,6 +32,7 @@
     "@commitlint/prompt-cli": "8.0.0",
     "@meatwallace/commitlint-config": "1.0.0",
     "@meatwallace/eslint-config-base": "1.0.0",
+    "@meatwallace/prettier-config": "1.0.0",
     "babel-eslint": "10.0.1",
     "babel-jest": "24.8.0",
     "chalk": "2.4.2",

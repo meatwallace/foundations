@@ -1,0 +1,29 @@
+{
+  "name": "@meatwallace/prettier-config",
+  "version": "1.0.0",
+  "description": "personal prettier configuration",
+  "author": "Geoff Whatley <me@geoffwhatley.com> (https://geoffwhatley.com/)",
+  "license": "MIT",
+  "private": false,
+  "main": "index.js",
+  "homepage": "https://github.com/meatwallace/foundations/tree/master/packages/prettier-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meatwallace/foundations.git",
+    "directory": "packages/prettier-config"
+  },
+  "bugs": {
+    "url": "https://github.com/meatwallace/foundations/issues"
+  },
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "@meatwallace/jest-config-base": "1.0.0",
+    "ajv": "6.10.0",
+    "node-fetch": "2.6.0"
+  },
+  "keywords": [
+    "prettier",
+    "config"
+  ]
+}
