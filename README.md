@@ -10,3 +10,4 @@ The home of a variety of presets, configurations & utilities used throughout my 
 - [@meatwallace/commitlint-config](/packages/commitlint-config)
 - [@meatwallace/eslint-config-base](/packages/eslint-config-base)
 - [@meatwallace/jest-config-base](/packages/jest-config-base)
+- [@meatwallace/prettier-config](/packages/prettier-config)

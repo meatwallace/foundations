@@ -2,4 +2,5 @@ coverage
 node_modules
 .yarn-cache
 *.log*
-.pnp*
+.pnp/
+.pnp.js

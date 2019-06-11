@@ -1,0 +1,111 @@
+defaults: &defaults
+  working_directory: ~/repo
+  docker:
+    - image: mhart/alpine-node:latest
+
+version: 2.1
+
+jobs:
+  checkout_code:
+    <<: *defaults
+    steps:
+      - checkout
+      - run:
+          name: Add Dependencies
+          # we need to add the `ca-certificates` package to allow
+          # `persist_to_workspace` to run in alpine-based images
+          command: apk --no-cache add ca-certificates
+      - persist_to_workspace:
+          root: ~/repo
+          paths:
+            - .
+
+  install_dependencies:
+    <<: *defaults
+    steps:
+      - run:
+          name: Add Dependencies
+          # we also need `ca-certificates` to re-attach the workspace
+          command: apk --no-cache add ca-certificates
+      - attach_workspace:
+          at: ~/repo
+      - restore_cache:
+          key: yarn-pnp-{{ checksum "yarn.lock" }}
+      - run:
+          name: Yarn Install
+          command: yarn install
+      - save_cache:
+          key: yarn-pnp-{{ checksum "yarn.lock"}}
+          paths:
+            - ~/repo/.yarn-cache
+            - ~/repo/.pnp.js
+            - ~/repo/.pnp
+      - persist_to_workspace:
+          root: ~/repo
+          paths:
+            - node_modules
+            - .yarn-cache
+            - .pnp
+            - .pnp.js
+
+  lint:
+    <<: *defaults
+    steps:
+      - run:
+          name: Add Dependencies
+          command: apk --no-cache add ca-certificates
+      - attach_workspace:
+          at: ~/repo
+      - checkout
+      - run:
+          name: Lint
+          command: yarn lint:ci
+
+  test:
+    <<: *defaults
+    steps:
+      - run:
+          name: Add Dependencies
+          command: apk --no-cache add ca-certificates
+      - attach_workspace:
+          at: ~/repo
+      - checkout
+      - run:
+          name: Run Tests
+          command: yarn test:ci
+
+  typecheck:
+    <<: *defaults
+    steps:
+      - run:
+          name: Install glibc
+          command: |
+            # hacky workaround to install glibc on alpine allowing flow to run
+            apk --no-cache add ca-certificates wget
+            wget -q -O /etc/apk/keys/sgerrand.rsa.pub https://alpine-pkgs.sgerrand.com/sgerrand.rsa.pub
+            wget https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.29-r0/glibc-2.29-r0.apk
+            apk add glibc-2.29-r0.apk
+      - attach_workspace:
+          at: ~/repo
+      - checkout
+      - run:
+          name: Run Flow
+          command: yarn typecheck
+
+workflows:
+  version: 2
+  build-and-release:
+    jobs:
+      - checkout_code
+      - install_dependencies:
+          requires:
+            - checkout_code
+      - lint:
+          requires:
+            - install_dependencies
+      - test:
+          requires:
+            - install_dependencies
+      - typecheck:
+          requires:
+            - install_dependencies
