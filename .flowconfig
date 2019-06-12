@@ -3,7 +3,11 @@
 [include]
 
 [ignore]
+; vim session undo history
 .*/\.undodir/.*
+
+; intentionally bogus JSON file
+.*\/multi-semantic-release\/test\/fixtures\/invalidPackage.json
 
 [untyped]
 
@@ -46,4 +50,4 @@ suppress_type=$FlowIgnore
 ;traces=0
 
 [version]
-0.100.0
+0.101.0

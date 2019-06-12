@@ -1,11 +1,17 @@
 {
   "name": "@meatwallace/commitlint-config",
-  "version": "1.0.0",
+  "version": "1.0.0-development",
   "description": "personal commitlint configuration",
   "author": "Geoff Whatley <me@geoffwhatley.com> (https://geoffwhatley.com/)",
   "license": "MIT",
   "private": false,
   "main": "index.js",
+  "files": [
+    "CHANGELOG.md",
+    "README.md",
+    "index.js",
+    "package.json"
+  ],
   "homepage": "https://github.com/meatwallace/foundations/tree/master/packages/commitlint-config#readme",
   "repository": {
     "type": "git",
@@ -18,7 +24,10 @@
   "scripts": {},
   "dependencies": {},
   "devDependencies": {
-    "@meatwallace/jest-config-base": "1.0.0"
+    "@meatwallace/jest-config-base": "1.0.0-development"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "commitlint",
