@@ -1,6 +1,6 @@
 {
   "name": "@meatwallace/eslint-config-base",
-  "version": "1.0.0-development",
+  "version": "1.0.0",
   "description": "personal eslint configuration",
   "author": "Geoff Whatley <me@geoffwhatley.com> (https://geoffwhatley.com/)",
   "license": "MIT",
@@ -24,7 +24,7 @@
   "scripts": {},
   "dependencies": {},
   "devDependencies": {
-    "@meatwallace/jest-config-base": "1.0.0-development"
+    "@meatwallace/jest-config-base": "1.0.0"
   },
   "peerDependencies": {
     "babel-eslint": "^10.0.0",
