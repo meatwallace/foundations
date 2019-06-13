@@ -26,12 +26,12 @@
   "devDependencies": {
     "@meatwallace/jest-config-base": "1.0.0"
   },
+  "peerDependencies": {},
   "publishConfig": {
     "access": "public"
   },
   "keywords": [
     "commitlint",
     "config"
-  ],
-  "peerDependencies": {}
+  ]
 }

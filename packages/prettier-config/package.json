@@ -28,12 +28,12 @@
     "ajv": "6.10.0",
     "node-fetch": "2.6.0"
   },
+  "peerDependencies": {},
   "publishConfig": {
     "access": "public"
   },
   "keywords": [
     "prettier",
     "config"
-  ],
-  "peerDependencies": {}
+  ]
 }
