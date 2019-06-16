@@ -1,9 +1,13 @@
 // @flow
 module.exports = {
   branch: 'master',
-  prepare: [
+  analyzeCommits: [
     '@semantic-release/commit-analyzer',
+  ],
+  generateNotes: [
     '@semantic-release/release-notes-generator',
+  ],
+  prepare: [
     '@semantic-release/changelog',
     '@semantic-release/npm',
     ['@semantic-release/git', {
@@ -12,5 +16,6 @@ module.exports = {
   ],
   publish: [
     '@semantic-release/npm',
+    '@semantic-release/github',
   ],
 };
