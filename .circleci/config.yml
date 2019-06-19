@@ -26,14 +26,14 @@ jobs:
       - run:
           name: Add Dependencies
           # we also need `ca-certificates` to re-attach the workspace
-          command: apk --no-cache add ca-certificates
+          command: apk --no-cache add bash ca-certificates
       - attach_workspace:
           at: ~/repo
       - restore_cache:
           key: yarn-pnp-{{ checksum "yarn.lock" }}
       - run:
           name: Yarn Install
-          command: yarn install --offline
+          command: yarn install --frozen-lockfile
       - save_cache:
           key: yarn-pnp-{{ checksum "yarn.lock"}}
           paths:
@@ -53,7 +53,7 @@ jobs:
     steps:
       - run:
           name: Add Dependencies
-          command: apk --no-cache add ca-certificates
+          command: apk --no-cache add bash ca-certificates
       - attach_workspace:
           at: ~/repo
       - checkout
@@ -66,7 +66,7 @@ jobs:
     steps:
       - run:
           name: Add Dependencies
-          command: apk --no-cache add ca-certificates
+          command: apk --no-cache add bash ca-certificates
       - attach_workspace:
           at: ~/repo
       - checkout
@@ -74,23 +74,23 @@ jobs:
           name: Run Tests
           command: yarn test:ci
 
-  typecheck:
-    <<: *defaults
-    steps:
-      - run:
-          name: Add Dependencies
-          command: |
-            # hacky workaround to install glibc on alpine allowing flow to run
-            apk --no-cache add ca-certificates wget
-            wget -q -O /etc/apk/keys/sgerrand.rsa.pub https://alpine-pkgs.sgerrand.com/sgerrand.rsa.pub
-            wget https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.29-r0/glibc-2.29-r0.apk
-            apk add glibc-2.29-r0.apk
-      - attach_workspace:
-          at: ~/repo
-      - checkout
-      - run:
-          name: Run Flow
-          command: yarn typecheck
+  #   typecheck:
+  #     <<: *defaults
+  #     steps:
+  #       - run:
+  #           name: Add Dependencies
+  #           command: |
+  #             apk --no-cache add bash ca-certificates wget
+  #             # hacky workaround to install glibc on alpine allowing flow to run
+  #             wget -q -O /etc/apk/keys/sgerrand.rsa.pub https://alpine-pkgs.sgerrand.com/sgerrand.rsa.pub
+  #             wget https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.29-r0/glibc-2.29-r0.apk
+  #             apk add glibc-2.29-r0.apk
+  #       - attach_workspace:
+  #           at: ~/repo
+  #       - checkout
+  #       - run:
+  #           name: Run Flow
+  #           command: yarn typecheck
 
   release:
     <<: *defaults
@@ -121,15 +121,15 @@ workflows:
       - test:
           requires:
             - install_dependencies
-      - typecheck:
-          requires:
-            - install_dependencies
+      # - typecheck:
+      #     requires:
+      #       - install_dependencies
       - release:
           context: semantic-release
           requires:
             - lint
             - test
-            - typecheck
+            # - typecheck
           filters:
             branches:
               only: master
