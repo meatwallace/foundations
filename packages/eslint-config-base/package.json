@@ -4,7 +4,6 @@
   "description": "personal eslint configuration",
   "author": "Geoff Whatley <me@geoffwhatley.com> (https://geoffwhatley.com/)",
   "license": "MIT",
-  "private": false,
   "main": "index.js",
   "files": [
     "CHANGELOG.md",
@@ -22,13 +21,18 @@
     "url": "https://github.com/meatwallace/foundations/issues"
   },
   "scripts": {},
-  "dependencies": {},
+  "dependencies": {
+    "babel-eslint": "10.0.2",
+    "eslint-plugin-eslint-comments": "3.1.1",
+    "eslint-plugin-import": "2.17.3",
+    "eslint-plugin-jest": "22.6.4",
+    "eslint-plugin-unicorn": "9.1.0"
+  },
   "devDependencies": {
     "@meatwallace/jest-config-base": "1.1.0"
   },
   "peerDependencies": {
-    "babel-eslint": "^10.0.0",
-    "eslint": "^5.0.0"
+    "eslint": "^6.0.0"
   },
   "publishConfig": {
     "access": "public"

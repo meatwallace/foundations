@@ -1,13 +1,13 @@
 # `@meatwallace/jest-config-base`
 
-personal base jest configuration
+personal jest configuration used as a base for other configurations
 
 ## Usage
 
 **Install**:
 
 ```sh
-$ yarn add --dev @meatwallace/jest-base-config
+yarn add --dev @meatwallace/jest-base-config
 ```
 
 **Merge with your `jest` configuration**:

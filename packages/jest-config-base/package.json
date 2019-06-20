@@ -4,7 +4,6 @@
   "description": "personal base jest configuration",
   "author": "Geoff Whatley <me@geoffwhatley.com> (https://geoffwhatley.com/)",
   "license": "MIT",
-  "private": false,
   "main": "index.js",
   "files": [
     "CHANGELOG.md",
@@ -22,7 +21,6 @@
     "url": "https://github.com/meatwallace/foundations/issues"
   },
   "scripts": {},
-  "dependencies": {},
   "devDependencies": {
     "jest-config": "24.8.0"
   },
@@ -32,6 +30,5 @@
   "keywords": [
     "jest",
     "config"
-  ],
-  "peerDependencies": {}
+  ]
 }

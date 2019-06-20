@@ -16,7 +16,7 @@
   "scripts": {
     "commit": "commit",
     "lint": "prettier-eslint",
-    "lint:ci": "eslint **/*.js",
+    "lint:ci": "eslint --resolve-plugins-relative-to packages/eslint-config-base **/*.js",
     "lint:fix": "prettier-eslint --write",
     "test": "jest --watch",
     "test:ci": "jest --bail",
@@ -24,41 +24,36 @@
     "release": "multi-semantic-release --execasync",
     "update-types": "npx flow-typed install --skip"
   },
-  "dependencies": {},
   "devDependencies": {
     "@babel/core": "7.4.5",
     "@babel/preset-env": "7.4.5",
     "@babel/preset-flow": "7.0.0",
     "@commitlint/cli": "8.0.0",
     "@commitlint/prompt-cli": "8.0.0",
-    "@meatwallace/commitlint-config": "*",
-    "@meatwallace/eslint-config-base": "*",
-    "@meatwallace/prettier-config": "*",
+    "@meatwallace/commitlint-config": "workspace:*",
+    "@meatwallace/eslint-config-base": "workspace:*",
+    "@meatwallace/prettier-config": "workspace:*",
     "@semantic-release/changelog": "3.0.4",
     "@semantic-release/commit-analyzer": "6.2.0",
     "@semantic-release/git": "7.0.12",
     "@semantic-release/github": "5.4.0",
-    "@semantic-release/npm": "5.1.9",
+    "@semantic-release/npm": "5.1.10",
     "@semantic-release/release-notes-generator": "7.2.0",
-    "babel-eslint": "10.0.1",
     "babel-jest": "24.8.0",
-    "chalk": "2.4.2",
     "cosmiconfig": "5.2.1",
-    "eslint": "5.16.0",
-    "flow-bin": "0.101.0",
-    "husky": "2.4.1",
+    "eslint": "6.0.0-rc.0",
+    "flow-bin": "0.102.0-rc",
+    "husky": "2.4.0",
+    "indent-string": "4.0.0",
     "jest": "24.8.0",
     "lint-staged": "8.2.1",
     "multi-semantic-release": "1.1.0",
-    "prettier-eslint-cli": "4.7.1",
+    "prettier-eslint-cli": "5.0.0",
     "require-in-the-middle": "4.0.0",
     "semantic-release": "15.13.16"
   },
   "// tooling configuration": "",
   "workspaces": [
     "packages/*"
-  ],
-  "installConfig": {
-    "pnp": true
-  }
+  ]
 }
