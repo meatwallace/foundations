@@ -194,15 +194,23 @@ function $$SETUP_STATE(hydrateRuntimeState) {
                 ],
                 [
                   "@semantic-release/npm",
-                  "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:5.1.10"
+                  "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#github:meatwallace/npm"
                 ],
                 [
                   "@semantic-release/release-notes-generator",
                   "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:7.2.0"
                 ],
                 [
+                  "@types/chalk",
+                  "npm:2.2.0"
+                ],
+                [
                   "babel-jest",
                   "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:24.8.0"
+                ],
+                [
+                  "chalk",
+                  "npm:2.4.2"
                 ],
                 [
                   "cosmiconfig",
@@ -4874,15 +4882,23 @@ function $$SETUP_STATE(hydrateRuntimeState) {
                 ],
                 [
                   "@semantic-release/npm",
-                  "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:5.1.10"
+                  "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#github:meatwallace/npm"
                 ],
                 [
                   "@semantic-release/release-notes-generator",
                   "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:7.2.0"
                 ],
                 [
+                  "@types/chalk",
+                  "npm:2.2.0"
+                ],
+                [
                   "babel-jest",
                   "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:24.8.0"
+                ],
+                [
+                  "chalk",
+                  "npm:2.4.2"
                 ],
                 [
                   "cosmiconfig",
@@ -5791,13 +5807,13 @@ function $$SETUP_STATE(hydrateRuntimeState) {
         "@semantic-release/npm",
         [
           [
-            "npm:5.1.10",
+            "github:meatwallace/npm",
             {
-              "packageLocation": "./.yarn/cache/@semantic-release-npm-npm-5.1.10-35d88854ca698f22851882bd279065e498b32729e7158a25c912c555ddf0e30a.zip/node_modules/@semantic-release/npm/",
+              "packageLocation": "./.yarn/cache/@semantic-release-npm-github-b961938ba34f28ff4e1afa2a51a881c049b4b0e8ece68c588e19f30c57322290.zip/sources/",
               "packageDependencies": [
                 [
                   "@semantic-release/npm",
-                  "npm:5.1.10"
+                  "github:meatwallace/npm"
                 ],
                 [
                   "@semantic-release/error",
@@ -5903,13 +5919,13 @@ function $$SETUP_STATE(hydrateRuntimeState) {
             }
           ],
           [
-            "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:5.1.10",
+            "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#github:meatwallace/npm",
             {
-              "packageLocation": "./.yarn/virtual/@semantic-release-npm-virtual-56c2a98841f8f2b39488cba8640e18a1846f6ac60115b56d21c2acc71660416c/node_modules/@semantic-release/npm/",
+              "packageLocation": "./.yarn/virtual/@semantic-release-npm-virtual-2e3294fbceb212f616970b811ee74445193bf10d5f29f30c9f82cf4da6fab349/sources/",
               "packageDependencies": [
                 [
                   "@semantic-release/npm",
-                  "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:5.1.10"
+                  "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#github:meatwallace/npm"
                 ],
                 [
                   "@semantic-release/error",
@@ -6279,6 +6295,27 @@ function $$SETUP_STATE(hydrateRuntimeState) {
                 [
                   "@babel/types",
                   "npm:7.4.4"
+                ]
+              ]
+            }
+          ]
+        ]
+      ],
+      [
+        "@types/chalk",
+        [
+          [
+            "npm:2.2.0",
+            {
+              "packageLocation": "./.yarn/cache/@types-chalk-npm-2.2.0-4897be940ee34b83cf47a11b7f7ba2cc32c27bfc5ff102154818052f8a631e4f.zip/node_modules/@types/chalk/",
+              "packageDependencies": [
+                [
+                  "@types/chalk",
+                  "npm:2.2.0"
+                ],
+                [
+                  "chalk",
+                  "npm:2.4.2"
                 ]
               ]
             }
