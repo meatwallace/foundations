@@ -2,9 +2,11 @@ module.exports = {
   branch: 'master',
   plugins: [],
   verifyConditions: [
-    '@semantic-release/git',
-    '@semantic-release/github',
-    '@semantic-release/npm',
+    // disabled to minimize overhead as it's executed for each package
+    // '@semantic-release/git',
+    // '@semantic-release/github',
+    // fork of npm plugin's verifyConditions step is broken
+    // '@semantic-release/npm',
   ],
   analyzeCommits: ['@semantic-release/commit-analyzer'],
   generateNotes: ['@semantic-release/release-notes-generator'],

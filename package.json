@@ -37,23 +37,31 @@
     "@semantic-release/commit-analyzer": "6.2.0",
     "@semantic-release/git": "7.0.12",
     "@semantic-release/github": "5.4.0",
-    "@semantic-release/npm": "5.1.10",
     "@semantic-release/release-notes-generator": "7.2.0",
+    "@types/chalk": "2.2.0",
     "babel-jest": "24.8.0",
+    "chalk": "2.4.2",
     "cosmiconfig": "5.2.1",
-    "eslint": "6.0.0-rc.0",
+    "eslint": "6.0.1",
     "flow-bin": "0.102.0-rc",
-    "husky": "2.4.0",
+    "husky": "3.0.0",
     "indent-string": "4.0.0",
     "jest": "24.8.0",
-    "lint-staged": "8.2.1",
+    "lint-staged": "9.0.2",
     "multi-semantic-release": "1.1.0",
     "prettier-eslint-cli": "5.0.0",
     "require-in-the-middle": "4.0.0",
+    "rxjs": "^6.5.2",
     "semantic-release": "15.13.16"
+  },
+  "resolutions": {
+    "@semantic-release/npm": "github:meatwallace/npm#3aa2e61"
   },
   "// tooling configuration": "",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "@semantic-release/npm": "github:meatwallace/npm#3aa2e61"
+  }
 }

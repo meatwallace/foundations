@@ -1,4 +1,4 @@
 // @flow
 module.exports = {
-  extends: ['@meatwallace']
+  extends: ['@meatwallace'],
 };
