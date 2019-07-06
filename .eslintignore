@@ -1,3 +1,1 @@
-node_modules
-flow-typed/npm
-.yarn-cache
+.yarn

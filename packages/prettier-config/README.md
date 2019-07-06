@@ -1,13 +1,13 @@
 # `@meatwallace/prettier-config`
 
-personal [Prettier](https://prettier.io) config.
+personal [Prettier](https://prettier.io) config
 
 ## Usage
 
 **Install**:
 
-```bash
-$ yarn add --dev @meatwallace/prettier-config
+```sh
+yarn add --dev @meatwallace/prettier-config
 ```
 
 **Use via editing `package.json`**:

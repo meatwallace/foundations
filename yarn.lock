@@ -345,17 +345,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-syntax-flow@npm:^7.2.0":
-  version: 7.2.0
-  resolution: "@babel/plugin-syntax-flow@npm:7.2.0"
-  dependencies:
-    "@babel/helper-plugin-utils": "npm:^7.0.0"
-  peerDependencies:
-    "@babel/core": ^7.0.0-0
-  checksum: 83fc7e91b2496acb05c0291c34bdaec3c3656f93d3f5c120a95228966357574b9b4cb4ca4b9abc68bda8f41fa4c2c80d6e6afc33293f842fba2f9514b11f564e
-  languageName: node
-  linkType: hard
-
 "@babel/plugin-syntax-json-strings@npm:^7.2.0":
   version: 7.2.0
   resolution: "@babel/plugin-syntax-json-strings@npm:7.2.0"
@@ -509,18 +498,6 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.0.0-0
   checksum: b258dac4bed77f8dc0421599f4ec2dae038443c1bdcfeb4d1b5dd5a29cc008cd0792f7948e9cf48dc80f5aaebf5cc49e62f4f0510f29481b6156a8a50abecabf
-  languageName: node
-  linkType: hard
-
-"@babel/plugin-transform-flow-strip-types@npm:^7.0.0":
-  version: 7.4.4
-  resolution: "@babel/plugin-transform-flow-strip-types@npm:7.4.4"
-  dependencies:
-    "@babel/helper-plugin-utils": "npm:^7.0.0"
-    "@babel/plugin-syntax-flow": "npm:^7.2.0"
-  peerDependencies:
-    "@babel/core": ^7.0.0-0
-  checksum: 043e96dfff8659a6696d073af2006a10da1e706dce69de3dc248e5b07f7f9bd767c9df122f1aa245eadc0ec7cf30406a359d45f247188d50429b7f036b57210a
   languageName: node
   linkType: hard
 
@@ -823,18 +800,6 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.0.0-0
   checksum: 8ebd95d81cc4c69a87c54e89c72d5a2ab92a6615685bd838e91fc132937d0f68e915c3879965ba7d9f1caf1335fda635e21b58f2300fdf929742a424222812bc
-  languageName: node
-  linkType: hard
-
-"@babel/preset-flow@npm:7.0.0":
-  version: 7.0.0
-  resolution: "@babel/preset-flow@npm:7.0.0"
-  dependencies:
-    "@babel/helper-plugin-utils": "npm:^7.0.0"
-    "@babel/plugin-transform-flow-strip-types": "npm:^7.0.0"
-  peerDependencies:
-    "@babel/core": ^7.0.0-0
-  checksum: 272069679fe61ec3ae8ce4e26ef688921a941224bab98071ea344ad089d86c99356f7683ffbf9340b95e1068587711dcc0f6761ccb1d65f69dd4e51430155f28
   languageName: node
   linkType: hard
 
@@ -1270,13 +1235,13 @@ __metadata:
   resolution: "@meatwallace/eslint-config-base@workspace:packages/eslint-config-base"
   dependencies:
     "@meatwallace/jest-config-base": 1.2.0
+    "@types/eslint": "npm:4.16.6"
     babel-eslint: "npm:10.0.2"
+    eslint: "npm:6.0.1"
     eslint-plugin-eslint-comments: "npm:3.1.1"
-    eslint-plugin-import: "npm:2.17.3"
-    eslint-plugin-jest: "npm:22.6.4"
-    eslint-plugin-unicorn: "npm:9.1.0"
-  peerDependencies:
-    eslint: ^6.0.0
+    eslint-plugin-import: "npm:2.18.0"
+    eslint-plugin-jest: "npm:22.7.2"
+    eslint-plugin-unicorn: "npm:9.1.1"
   languageName: unknown
   linkType: soft
 
@@ -1286,7 +1251,6 @@ __metadata:
   dependencies:
     "@babel/core": "npm:7.4.5"
     "@babel/preset-env": "npm:7.4.5"
-    "@babel/preset-flow": "npm:7.0.0"
     "@commitlint/cli": "npm:8.0.0"
     "@commitlint/prompt-cli": "npm:8.0.0"
     "@meatwallace/commitlint-config": "workspace:*"
@@ -1303,7 +1267,6 @@ __metadata:
     chalk: "npm:2.4.2"
     cosmiconfig: "npm:5.2.1"
     eslint: "npm:6.0.1"
-    flow-bin: "npm:0.102.0-rc"
     husky: "npm:3.0.0"
     indent-string: "npm:4.0.0"
     jest: "npm:24.8.0"
@@ -1311,7 +1274,7 @@ __metadata:
     multi-semantic-release: "npm:1.1.0"
     prettier-eslint-cli: "npm:5.0.0"
     require-in-the-middle: "npm:4.0.0"
-    rxjs: "npm:^6.5.2"
+    rxjs: "npm:6.5.2"
     semantic-release: "npm:15.13.16"
   languageName: unknown
   linkType: soft
@@ -1597,6 +1560,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/eslint@npm:4.16.6":
+  version: 4.16.6
+  resolution: "@types/eslint@npm:4.16.6"
+  dependencies:
+    "@types/estree": "npm:*"
+    "@types/json-schema": "npm:*"
+  checksum: 34401acded85057b9218c65a488f4e27ab67f82b45fe9bd93f24766e2e698138d7fc3bdb6e9bf694a48b7f6efdd07673f4a8abe21575a1125f18802a952d175a
+  languageName: node
+  linkType: hard
+
+"@types/estree@npm:*":
+  version: 0.0.39
+  resolution: "@types/estree@npm:0.0.39"
+  checksum: b284113b8d1c25dee552fb415687689a44cd46619a1396cb9329293d69149a0a61d231a70c5453be699e9738383d045f2971d56695d350066ef3743b87432c15
+  languageName: node
+  linkType: hard
+
 "@types/events@npm:*":
   version: 3.0.0
   resolution: "@types/events@npm:3.0.0"
@@ -1638,6 +1618,13 @@ __metadata:
     "@types/istanbul-lib-coverage": "npm:*"
     "@types/istanbul-lib-report": "npm:*"
   checksum: b9f1e06962919dd732f195d24f5801baf0115e226d687efd4de9df735654769329cac3f191e08bbdb46aa85c096699abcff27ae59fee731fdd89a3b8827cda69
+  languageName: node
+  linkType: hard
+
+"@types/json-schema@npm:*":
+  version: 7.0.3
+  resolution: "@types/json-schema@npm:7.0.3"
+  checksum: 6d10208a973b6022011dd1f2ace747de76a10d245e4777509b610d6020512366132a06a711531795555c947a1c185a11b4b7641894645e3e9657402f96d97141
   languageName: node
   linkType: hard
 
@@ -3709,9 +3696,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:2.17.3":
-  version: 2.17.3
-  resolution: "eslint-plugin-import@npm:2.17.3"
+"eslint-plugin-import@npm:2.18.0":
+  version: 2.18.0
+  resolution: "eslint-plugin-import@npm:2.18.0"
   dependencies:
     array-includes: "npm:^3.0.3"
     contains-path: "npm:^0.1.0"
@@ -3725,23 +3712,23 @@ __metadata:
     read-pkg-up: "npm:^2.0.0"
     resolve: "npm:^1.11.0"
   peerDependencies:
-    eslint: 2.x - 5.x
-  checksum: 5b73e75ef08255cacb078199de3082657d5c60e131451f5bf9763e58e91f6bab28ff6858ec122e0154ebbec7532d5a255a53f6eb3d009915a38af1d0cba24af5
+    eslint: 2.x - 6.x
+  checksum: e5a19eab315ae3cf0df8f69f6099291f14609530e2ad4e85c6ac5949a7779a67fc07652278384b8ec6205263bba0611df36346880490adb0b1387189f63afe8f
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:22.6.4":
-  version: 22.6.4
-  resolution: "eslint-plugin-jest@npm:22.6.4"
+"eslint-plugin-jest@npm:22.7.2":
+  version: 22.7.2
+  resolution: "eslint-plugin-jest@npm:22.7.2"
   peerDependencies:
     eslint: ">=5"
-  checksum: 602dd9892a073916ed3a9776860ac5819859245fa99917941814df5ead569673e08304bacf3420cf3b781c7e5bb7f048102ab788d7b335510076d0b1c3a0916f
+  checksum: 734c7e3611f5b9bf2c1aac52e1519bd14b49525faccb02d9dfab69d7211fb51733a817351a47bce0becff2eaf915857e2cc405152126627746a1a533540e00f5
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:9.1.0":
-  version: 9.1.0
-  resolution: "eslint-plugin-unicorn@npm:9.1.0"
+"eslint-plugin-unicorn@npm:9.1.1":
+  version: 9.1.1
+  resolution: "eslint-plugin-unicorn@npm:9.1.1"
   dependencies:
     clean-regexp: "npm:^1.0.0"
     eslint-ast-utils: "npm:^1.0.0"
@@ -3757,7 +3744,7 @@ __metadata:
     safe-regex: "npm:^2.0.1"
   peerDependencies:
     eslint: ">=5.0.0"
-  checksum: 6cae8982f9022832d97104b42fabf4f59a4fd13f74ab593035ab3cf0b038d8f66e06c3fb1aa1bf89ab23046ec56e0821b48095652a5ff3854d778eb0d58e09bd
+  checksum: aff340eb6a2199ef07c54cdaa18e0f1a75c235cbdb787db009e43b0f0b5654d427145bdc6fd86c327ab0d4b284b98bb90c565088d4cfd164b7d5458d5bbfcf88
   languageName: node
   linkType: hard
 
@@ -4388,15 +4375,6 @@ __metadata:
   version: 2.0.0
   resolution: "flatted@npm:2.0.0"
   checksum: 3bce66201978bea92a37a7628c5e3376bdc5cd6e2002d9f0be1ec57d2b24c5ec6e4eb1d9d10cd60db9c4d874b51787dc27b09656303953b3db744afa2d3574d4
-  languageName: node
-  linkType: hard
-
-"flow-bin@npm:0.102.0-rc":
-  version: 0.102.0-rc
-  resolution: "flow-bin@npm:0.102.0-rc"
-  bin:
-    flow: cli.js
-  checksum: 27ba2b11ca071622bbe82e4d65c23806a2ddb548eca8ff5627b71103ffff404c31ff6b8ed5e6a3aab2841a4552f5996a8148da7d4f84dba3bf4f1bd7e185d77c
   languageName: node
   linkType: hard
 
@@ -9090,12 +9068,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"regexp-tree@npm:^0.1.6, regexp-tree@npm:~0.1.1":
+"regexp-tree@npm:^0.1.6":
   version: 0.1.10
   resolution: "regexp-tree@npm:0.1.10"
   bin:
     regexp-tree: ./bin/regexp-tree
   checksum: 85ecdd5d45ad82f60bd181b8263618ff79769a933d851661e750c879064876fbd2beb1b30b5f54a1ca6e8e985da6548643270995abe6ca91b100e3a461160f8c
+  languageName: node
+  linkType: hard
+
+"regexp-tree@npm:~0.1.1":
+  version: 0.1.11
+  resolution: "regexp-tree@npm:0.1.11"
+  bin:
+    regexp-tree: ./bin/regexp-tree
+  checksum: 50f11d6c7644dd01fc03b4a90be11075ca4897f43777083080b5ffc71330539d11a2c4478dcc534eea5bac37e4b2336b7c646329196d416d949378fdd9c11b00
   languageName: node
   linkType: hard
 
@@ -9431,7 +9418,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rxjs@npm:^6.3.3, rxjs@npm:^6.4.0, rxjs@npm:^6.5.2":
+"rxjs@npm:6.5.2, rxjs@npm:^6.3.3, rxjs@npm:^6.4.0, rxjs@npm:^6.5.2":
   version: 6.5.2
   resolution: "rxjs@npm:6.5.2"
   dependencies:

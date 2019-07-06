@@ -7,7 +7,7 @@ personal [ESLint](https://eslint.org) base configuration
 **Install**:
 
 ```sh
-$ yarn add --dev @meatwallace/eslint-config-base
+yarn add --dev @meatwallace/eslint-config-base
 ```
 
 **Extend your `eslint` configuration file**:

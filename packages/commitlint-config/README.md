@@ -7,7 +7,7 @@ personal [commitlint](https://commitlint.js.org) configuration
 **Install**:
 
 ```sh
-$ yarn add --dev @meatwallace/commitlint-config
+yarn add --dev @meatwallace/commitlint-config
 ```
 
 **Extend your `commitlint` configuration file**:
