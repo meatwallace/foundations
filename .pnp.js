@@ -123,7 +123,7 @@ function $$SETUP_STATE(hydrateRuntimeState) {
             ["@meatwallace/eslint-config-base", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#workspace:packages/eslint-config-base"],
             ["@meatwallace/prettier-config", "workspace:packages/prettier-config"],
             ["@semantic-release/git", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:7.0.12"],
-            ["@semantic-release/npm", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#github:meatwallace/npm#3aa2e61"],
+            ["@semantic-release/npm", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#github:meatwallace/npm#7b4f843"],
             ["@types/chalk", "npm:2.2.0"],
             ["babel-jest", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:24.8.0"],
             ["chalk", "npm:2.4.2"],
@@ -1825,7 +1825,7 @@ function $$SETUP_STATE(hydrateRuntimeState) {
             ["@meatwallace/eslint-config-base", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#workspace:packages/eslint-config-base"],
             ["@meatwallace/prettier-config", "workspace:packages/prettier-config"],
             ["@semantic-release/git", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:7.0.12"],
-            ["@semantic-release/npm", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#github:meatwallace/npm#3aa2e61"],
+            ["@semantic-release/npm", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#github:meatwallace/npm#7b4f843"],
             ["@types/chalk", "npm:2.2.0"],
             ["babel-jest", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:24.8.0"],
             ["chalk", "npm:2.4.2"],
@@ -2072,10 +2072,10 @@ function $$SETUP_STATE(hydrateRuntimeState) {
         }]
       ]],
       ["@semantic-release/npm", [
-        ["github:meatwallace/npm#3aa2e61", {
-          "packageLocation": "./.yarn/cache/@semantic-release-npm-github-0fd8af4818499f5e14ccacbc38ed7d7d0917428cc1d7761491a0d7ca41e91927.zip/sources/",
+        ["github:meatwallace/npm#7b4f843", {
+          "packageLocation": "./.yarn/cache/@semantic-release-npm-github-0e4248c59d4aeb56f3123434bc5ca1b313b41c8c66eac406c5e88d891ecaf5b8.zip/sources/",
           "packageDependencies": [
-            ["@semantic-release/npm", "github:meatwallace/npm#3aa2e61"],
+            ["@semantic-release/npm", "github:meatwallace/npm#7b4f843"],
             ["@semantic-release/error", "npm:2.2.0"],
             ["aggregate-error", "npm:3.0.0"],
             ["execa", "npm:1.0.0"],
@@ -2088,10 +2088,10 @@ function $$SETUP_STATE(hydrateRuntimeState) {
             ["yaml", "npm:1.6.0"]
           ]
         }],
-        ["virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#github:meatwallace/npm#3aa2e61", {
-          "packageLocation": "./.yarn/virtual/@semantic-release-npm-virtual-a71ce495ab2a8e2e73588d492461ee28813ee063577f0ed2601cedc84d69dde4/sources/",
+        ["virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#github:meatwallace/npm#7b4f843", {
+          "packageLocation": "./.yarn/virtual/@semantic-release-npm-virtual-eb40d6f0fc21cb1818999cd0bca18e73a57ce4c59ebcd82c1edd23182dcc72bb/sources/",
           "packageDependencies": [
-            ["@semantic-release/npm", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#github:meatwallace/npm#3aa2e61"],
+            ["@semantic-release/npm", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#github:meatwallace/npm#7b4f843"],
             ["@semantic-release/error", "npm:2.2.0"],
             ["aggregate-error", "npm:3.0.0"],
             ["execa", "npm:1.0.0"],
@@ -2104,10 +2104,10 @@ function $$SETUP_STATE(hydrateRuntimeState) {
             ["yaml", "npm:1.6.0"]
           ]
         }],
-        ["virtual:4b6ea9b95ce62f3c66ee100cc9db079941c4ca18ee1d09b2c8ab5934c3da7dfa83161b7faed0c8be0bc226e1217f74a7b2f96c6ce5a19553c2fddee84a41cdcf#github:meatwallace/npm#3aa2e61", {
-          "packageLocation": "./.yarn/virtual/@semantic-release-npm-virtual-4f3c8bd00a444c06cab178990e04f3835a58410b265d3444fa1ee5d2d7c76d04/sources/",
+        ["virtual:4b6ea9b95ce62f3c66ee100cc9db079941c4ca18ee1d09b2c8ab5934c3da7dfa83161b7faed0c8be0bc226e1217f74a7b2f96c6ce5a19553c2fddee84a41cdcf#github:meatwallace/npm#7b4f843", {
+          "packageLocation": "./.yarn/virtual/@semantic-release-npm-virtual-de04cbb91ff70c9424f4fb33729fa1d2d140bfa46796753d9056b599b1ed95fc/sources/",
           "packageDependencies": [
-            ["@semantic-release/npm", "virtual:4b6ea9b95ce62f3c66ee100cc9db079941c4ca18ee1d09b2c8ab5934c3da7dfa83161b7faed0c8be0bc226e1217f74a7b2f96c6ce5a19553c2fddee84a41cdcf#github:meatwallace/npm#3aa2e61"],
+            ["@semantic-release/npm", "virtual:4b6ea9b95ce62f3c66ee100cc9db079941c4ca18ee1d09b2c8ab5934c3da7dfa83161b7faed0c8be0bc226e1217f74a7b2f96c6ce5a19553c2fddee84a41cdcf#github:meatwallace/npm#7b4f843"],
             ["@semantic-release/error", "npm:2.2.0"],
             ["aggregate-error", "npm:3.0.0"],
             ["execa", "npm:1.0.0"],
@@ -10270,7 +10270,7 @@ function $$SETUP_STATE(hydrateRuntimeState) {
             ["@semantic-release/commit-analyzer", "virtual:4b6ea9b95ce62f3c66ee100cc9db079941c4ca18ee1d09b2c8ab5934c3da7dfa83161b7faed0c8be0bc226e1217f74a7b2f96c6ce5a19553c2fddee84a41cdcf#npm:6.2.0"],
             ["@semantic-release/error", "npm:2.2.0"],
             ["@semantic-release/github", "virtual:4b6ea9b95ce62f3c66ee100cc9db079941c4ca18ee1d09b2c8ab5934c3da7dfa83161b7faed0c8be0bc226e1217f74a7b2f96c6ce5a19553c2fddee84a41cdcf#npm:5.4.0"],
-            ["@semantic-release/npm", "virtual:4b6ea9b95ce62f3c66ee100cc9db079941c4ca18ee1d09b2c8ab5934c3da7dfa83161b7faed0c8be0bc226e1217f74a7b2f96c6ce5a19553c2fddee84a41cdcf#github:meatwallace/npm#3aa2e61"],
+            ["@semantic-release/npm", "virtual:4b6ea9b95ce62f3c66ee100cc9db079941c4ca18ee1d09b2c8ab5934c3da7dfa83161b7faed0c8be0bc226e1217f74a7b2f96c6ce5a19553c2fddee84a41cdcf#github:meatwallace/npm#7b4f843"],
             ["@semantic-release/release-notes-generator", "virtual:4b6ea9b95ce62f3c66ee100cc9db079941c4ca18ee1d09b2c8ab5934c3da7dfa83161b7faed0c8be0bc226e1217f74a7b2f96c6ce5a19553c2fddee84a41cdcf#npm:7.2.0"],
             ["aggregate-error", "npm:3.0.0"],
             ["cosmiconfig", "npm:5.2.1"],

@@ -31,11 +31,13 @@
     "@meatwallace/eslint-config-base": "workspace:*",
     "@meatwallace/prettier-config": "workspace:*",
     "@semantic-release/git": "7.0.12",
+    "@semantic-release/npm": "github:meatwallace/npm#7b4f843",
     "@types/chalk": "2.2.0",
     "babel-jest": "24.8.0",
     "chalk": "2.4.2",
     "cosmiconfig": "5.2.1",
     "eslint": "6.0.1",
+    "eslint-import-resolver-node": "0.3.2",
     "husky": "3.0.0",
     "indent-string": "4.0.0",
     "jest": "24.8.0",
@@ -47,14 +49,10 @@
     "semantic-release": "15.13.16"
   },
   "resolutions": {
-    "@semantic-release/npm": "github:meatwallace/npm#3aa2e61"
+    "@semantic-release/npm": "github:meatwallace/npm#7b4f843"
   },
   "// tooling configuration": "",
   "workspaces": [
     "packages/*"
-  ],
-  "dependencies": {
-    "@semantic-release/npm": "github:meatwallace/npm#3aa2e61",
-    "eslint-import-resolver-node": "0.3.2"
-  }
+  ]
 }
