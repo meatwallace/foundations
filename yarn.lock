@@ -1267,6 +1267,7 @@ __metadata:
     chalk: "npm:2.4.2"
     cosmiconfig: "npm:5.2.1"
     eslint: "npm:6.0.1"
+    eslint-import-resolver-node: "npm:0.3.2"
     husky: "npm:3.0.0"
     indent-string: "npm:4.0.0"
     jest: "npm:24.8.0"
@@ -3664,7 +3665,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-node@npm:^0.3.2":
+"eslint-import-resolver-node@npm:0.3.2, eslint-import-resolver-node@npm:^0.3.2":
   version: 0.3.2
   resolution: "eslint-import-resolver-node@npm:0.3.2"
   dependencies:
