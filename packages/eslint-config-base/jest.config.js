@@ -1,4 +1,3 @@
-// @flow
 const baseConfig = require('@meatwallace/jest-config-base');
 
 module.exports = {

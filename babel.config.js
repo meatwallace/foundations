@@ -1,12 +1,10 @@
-// @flow
-module.exports = (api /*: $FlowIgnore */) => {
+module.exports = (api) => {
   //  const isTest = api.env('test');
 
   api.cache(true);
 
   return {
     presets: [
-      '@babel/preset-flow',
       [
         '@babel/preset-env',
         {

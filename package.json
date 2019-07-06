@@ -20,14 +20,11 @@
     "lint:fix": "prettier-eslint --write",
     "test": "jest --watch",
     "test:ci": "jest --bail",
-    "typecheck": "flow",
-    "release": "multi-semantic-release --execasync",
-    "update-types": "npx flow-typed install --skip"
+    "release": "multi-semantic-release --execasync"
   },
   "devDependencies": {
     "@babel/core": "7.4.5",
     "@babel/preset-env": "7.4.5",
-    "@babel/preset-flow": "7.0.0",
     "@commitlint/cli": "8.0.0",
     "@commitlint/prompt-cli": "8.0.0",
     "@meatwallace/commitlint-config": "workspace:*",
@@ -43,7 +40,6 @@
     "chalk": "2.4.2",
     "cosmiconfig": "5.2.1",
     "eslint": "6.0.1",
-    "flow-bin": "0.102.0-rc",
     "husky": "3.0.0",
     "indent-string": "4.0.0",
     "jest": "24.8.0",
@@ -51,7 +47,7 @@
     "multi-semantic-release": "1.1.0",
     "prettier-eslint-cli": "5.0.0",
     "require-in-the-middle": "4.0.0",
-    "rxjs": "^6.5.2",
+    "rxjs": "6.5.2",
     "semantic-release": "15.13.16"
   },
   "resolutions": {

@@ -1,4 +1,3 @@
-// @flow
 module.exports = {
   coverageDirectory: 'coverage',
   errorOnDeprecated: true,
