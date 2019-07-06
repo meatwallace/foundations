@@ -1242,6 +1242,8 @@ __metadata:
     eslint-plugin-import: "npm:2.18.0"
     eslint-plugin-jest: "npm:22.7.2"
     eslint-plugin-unicorn: "npm:9.1.1"
+  peerDependencies:
+    eslint-import-resolver-node: ^0.3.2
   languageName: unknown
   linkType: soft
 
