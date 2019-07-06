@@ -1,3 +1,80 @@
+# [1.3.0](https://github.com/meatwallace/foundations/compare/@meatwallace/jest-config-base@1.2.0...@meatwallace/jest-config-base@1.3.0) (2019-07-06)
+
+
+### Features
+
+* **eslint:** add plugins and comprehensive configuration to base config ([8dddb6d](https://github.com/meatwallace/foundations/commit/8dddb6d)), closes [#48](https://github.com/meatwallace/foundations/issues/48)
+
+# [1.3.0](https://github.com/meatwallace/foundations/compare/@meatwallace/jest-config-base@1.2.0...@meatwallace/jest-config-base@1.3.0) (2019-07-06)
+
+
+### Features
+
+* **eslint:** add plugins and comprehensive configuration to base config ([8dddb6d](https://github.com/meatwallace/foundations/commit/8dddb6d)), closes [#48](https://github.com/meatwallace/foundations/issues/48)
+
+# [1.3.0](https://github.com/meatwallace/foundations/compare/@meatwallace/jest-config-base@1.2.0...@meatwallace/jest-config-base@1.3.0) (2019-07-06)
+
+
+### Features
+
+* **eslint:** add plugins and comprehensive configuration to base config ([8dddb6d](https://github.com/meatwallace/foundations/commit/8dddb6d)), closes [#48](https://github.com/meatwallace/foundations/issues/48)
+
+# [1.3.0](https://github.com/meatwallace/foundations/compare/@meatwallace/jest-config-base@1.2.0...@meatwallace/jest-config-base@1.3.0) (2019-07-06)
+
+
+### Features
+
+* **eslint:** add plugins and comprehensive configuration to base config ([8dddb6d](https://github.com/meatwallace/foundations/commit/8dddb6d)), closes [#48](https://github.com/meatwallace/foundations/issues/48)
+
+# [1.3.0](https://github.com/meatwallace/foundations/compare/@meatwallace/jest-config-base@1.2.0...@meatwallace/jest-config-base@1.3.0) (2019-07-06)
+
+
+### Features
+
+* **eslint:** add plugins and comprehensive configuration to base config ([8dddb6d](https://github.com/meatwallace/foundations/commit/8dddb6d)), closes [#48](https://github.com/meatwallace/foundations/issues/48)
+
+# [1.3.0](https://github.com/meatwallace/foundations/compare/@meatwallace/jest-config-base@1.2.0...@meatwallace/jest-config-base@1.3.0) (2019-07-06)
+
+
+### Features
+
+* **eslint:** add plugins and comprehensive configuration to base config ([8dddb6d](https://github.com/meatwallace/foundations/commit/8dddb6d)), closes [#48](https://github.com/meatwallace/foundations/issues/48)
+
+# [1.3.0](https://github.com/meatwallace/foundations/compare/@meatwallace/jest-config-base@1.2.0...@meatwallace/jest-config-base@1.3.0) (2019-07-06)
+
+
+### Features
+
+* **eslint:** add plugins and comprehensive configuration to base config ([8dddb6d](https://github.com/meatwallace/foundations/commit/8dddb6d)), closes [#48](https://github.com/meatwallace/foundations/issues/48)
+
+# [1.3.0](https://github.com/meatwallace/foundations/compare/@meatwallace/jest-config-base@1.2.0...@meatwallace/jest-config-base@1.3.0) (2019-07-06)
+
+
+### Features
+
+* **eslint:** add plugins and comprehensive configuration to base config ([8dddb6d](https://github.com/meatwallace/foundations/commit/8dddb6d)), closes [#48](https://github.com/meatwallace/foundations/issues/48)
+
+# [1.3.0](https://github.com/meatwallace/foundations/compare/@meatwallace/jest-config-base@1.2.0...@meatwallace/jest-config-base@1.3.0) (2019-07-06)
+
+
+### Features
+
+* **eslint:** add plugins and comprehensive configuration to base config ([8dddb6d](https://github.com/meatwallace/foundations/commit/8dddb6d)), closes [#48](https://github.com/meatwallace/foundations/issues/48)
+
+# [1.3.0](https://github.com/meatwallace/foundations/compare/@meatwallace/jest-config-base@1.2.0...@meatwallace/jest-config-base@1.3.0) (2019-07-06)
+
+
+### Features
+
+* **eslint:** add plugins and comprehensive configuration to base config ([8dddb6d](https://github.com/meatwallace/foundations/commit/8dddb6d)), closes [#48](https://github.com/meatwallace/foundations/issues/48)
+
+# [1.3.0](https://github.com/meatwallace/foundations/compare/@meatwallace/jest-config-base@1.2.0...@meatwallace/jest-config-base@1.3.0) (2019-07-06)
+
+
+### Features
+
+* **eslint:** add plugins and comprehensive configuration to base config ([8dddb6d](https://github.com/meatwallace/foundations/commit/8dddb6d)), closes [#48](https://github.com/meatwallace/foundations/issues/48)
+
 # [1.2.0](https://github.com/meatwallace/foundations/compare/@meatwallace/jest-config-base@1.1.0...@meatwallace/jest-config-base@1.2.0) (2019-06-21)
 
 
