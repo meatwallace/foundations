@@ -58,6 +58,7 @@
     "packages/*"
   ],
   "dependencies": {
-    "@semantic-release/npm": "github:meatwallace/npm#3aa2e61"
+    "@semantic-release/npm": "github:meatwallace/npm#3aa2e61",
+    "eslint-import-resolver-node": "0.3.2"
   }
 }
