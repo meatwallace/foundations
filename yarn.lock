@@ -1259,7 +1259,7 @@ __metadata:
     "@meatwallace/eslint-config-base": "workspace:*"
     "@meatwallace/prettier-config": "workspace:*"
     "@semantic-release/git": "npm:7.0.12"
-    "@semantic-release/npm": "github:meatwallace/npm#3aa2e61"
+    "@semantic-release/npm": "github:meatwallace/npm#7b4f843"
     "@types/chalk": "npm:2.2.0"
     babel-jest: "npm:24.8.0"
     chalk: "npm:2.4.2"
@@ -1450,9 +1450,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/npm@github:meatwallace/npm#3aa2e61":
+"@semantic-release/npm@github:meatwallace/npm#7b4f843":
   version: 0.0.0-development
-  resolution: "@semantic-release/npm@github:meatwallace/npm#3aa2e61"
+  resolution: "@semantic-release/npm@github:meatwallace/npm#7b4f843"
   dependencies:
     "@semantic-release/error": "npm:2.2.0"
     aggregate-error: "npm:3.0.0"
@@ -1465,7 +1465,7 @@ __metadata:
     yaml: "npm:^1.6.0"
   peerDependencies:
     semantic-release: ">=15.9.0 <16.0.0"
-  checksum: 28dd7cf2ec438eacdf289f6305a6154c304c2155d75d8879e36eea37e3c971889e4de24e66e20c0b033f554ee2988c2439db31b3c790929b1562b30f2b9aa4a4
+  checksum: bbc59b776e12c6e61d515872be3bab1c158117abd8644441ed7bac80e4e58a000e3ac360f0f0aa7cd12dafc05d3e8e80f615d23624bd4d2feedd67b48500358b
   languageName: node
   linkType: hard
 
@@ -9496,7 +9496,7 @@ __metadata:
     "@semantic-release/commit-analyzer": "npm:^6.1.0"
     "@semantic-release/error": "npm:^2.2.0"
     "@semantic-release/github": "npm:^5.1.0"
-    "@semantic-release/npm": "github:meatwallace/npm#3aa2e61"
+    "@semantic-release/npm": "github:meatwallace/npm#7b4f843"
     "@semantic-release/release-notes-generator": "npm:^7.1.2"
     aggregate-error: "npm:^3.0.0"
     cosmiconfig: "npm:^5.0.1"
