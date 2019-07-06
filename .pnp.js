@@ -122,12 +122,8 @@ function $$SETUP_STATE(hydrateRuntimeState) {
             ["@meatwallace/commitlint-config", "workspace:packages/commitlint-config"],
             ["@meatwallace/eslint-config-base", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#workspace:packages/eslint-config-base"],
             ["@meatwallace/prettier-config", "workspace:packages/prettier-config"],
-            ["@semantic-release/changelog", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:3.0.4"],
-            ["@semantic-release/commit-analyzer", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:6.2.0"],
             ["@semantic-release/git", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:7.0.12"],
-            ["@semantic-release/github", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:5.4.0"],
             ["@semantic-release/npm", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#github:meatwallace/npm#3aa2e61"],
-            ["@semantic-release/release-notes-generator", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:7.2.0"],
             ["@types/chalk", "npm:2.2.0"],
             ["babel-jest", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:24.8.0"],
             ["chalk", "npm:2.4.2"],
@@ -1828,12 +1824,8 @@ function $$SETUP_STATE(hydrateRuntimeState) {
             ["@meatwallace/commitlint-config", "workspace:packages/commitlint-config"],
             ["@meatwallace/eslint-config-base", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#workspace:packages/eslint-config-base"],
             ["@meatwallace/prettier-config", "workspace:packages/prettier-config"],
-            ["@semantic-release/changelog", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:3.0.4"],
-            ["@semantic-release/commit-analyzer", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:6.2.0"],
             ["@semantic-release/git", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:7.0.12"],
-            ["@semantic-release/github", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:5.4.0"],
             ["@semantic-release/npm", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#github:meatwallace/npm#3aa2e61"],
-            ["@semantic-release/release-notes-generator", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:7.2.0"],
             ["@types/chalk", "npm:2.2.0"],
             ["babel-jest", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:24.8.0"],
             ["chalk", "npm:2.4.2"],
@@ -1957,30 +1949,6 @@ function $$SETUP_STATE(hydrateRuntimeState) {
           ]
         }]
       ]],
-      ["@semantic-release/changelog", [
-        ["npm:3.0.4", {
-          "packageLocation": "./.yarn/cache/@semantic-release-changelog-npm-3.0.4-30382ad07feb6957ae3c3683b22a9e920a35fc4906e90a5cde70abe5f0fc8601.zip/node_modules/@semantic-release/changelog/",
-          "packageDependencies": [
-            ["@semantic-release/changelog", "npm:3.0.4"],
-            ["@semantic-release/error", "npm:2.2.0"],
-            ["aggregate-error", "npm:3.0.0"],
-            ["fs-extra", "npm:8.0.1"],
-            ["lodash", "npm:4.17.11"],
-            ["semantic-release", null]
-          ]
-        }],
-        ["virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:3.0.4", {
-          "packageLocation": "./.yarn/virtual/@semantic-release-changelog-virtual-cec62778ae50d492a0a0fed780e7d8d586ba4d85788ebc6eb045402af28f353c/node_modules/@semantic-release/changelog/",
-          "packageDependencies": [
-            ["@semantic-release/changelog", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:3.0.4"],
-            ["@semantic-release/error", "npm:2.2.0"],
-            ["aggregate-error", "npm:3.0.0"],
-            ["fs-extra", "npm:8.0.1"],
-            ["lodash", "npm:4.17.11"],
-            ["semantic-release", "npm:15.13.16"]
-          ]
-        }]
-      ]],
       ["@semantic-release/commit-analyzer", [
         ["npm:6.2.0", {
           "packageLocation": "./.yarn/cache/@semantic-release-commit-analyzer-npm-6.2.0-95364082852ef70870cdba6c3bff79a6740d214a55e18350cac420d4f2b30908.zip/node_modules/@semantic-release/commit-analyzer/",
@@ -1993,19 +1961,6 @@ function $$SETUP_STATE(hydrateRuntimeState) {
             ["import-from", "npm:3.0.0"],
             ["lodash", "npm:4.17.11"],
             ["semantic-release", null]
-          ]
-        }],
-        ["virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:6.2.0", {
-          "packageLocation": "./.yarn/virtual/@semantic-release-commit-analyzer-virtual-6104c42a446bc755e859faf12d873b7d8db4b0530e3e0c187338d3430fc825f4/node_modules/@semantic-release/commit-analyzer/",
-          "packageDependencies": [
-            ["@semantic-release/commit-analyzer", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:6.2.0"],
-            ["conventional-changelog-angular", "npm:5.0.3"],
-            ["conventional-commits-filter", "npm:2.0.2"],
-            ["conventional-commits-parser", "npm:3.0.3"],
-            ["debug", "npm:4.1.1"],
-            ["import-from", "npm:3.0.0"],
-            ["lodash", "npm:4.17.11"],
-            ["semantic-release", "npm:15.13.16"]
           ]
         }],
         ["virtual:4b6ea9b95ce62f3c66ee100cc9db079941c4ca18ee1d09b2c8ab5934c3da7dfa83161b7faed0c8be0bc226e1217f74a7b2f96c6ce5a19553c2fddee84a41cdcf#npm:6.2.0", {
@@ -2088,30 +2043,6 @@ function $$SETUP_STATE(hydrateRuntimeState) {
             ["p-retry", "npm:4.1.0"],
             ["parse-github-url", "npm:1.0.2"],
             ["semantic-release", null],
-            ["url-join", "npm:4.0.0"]
-          ]
-        }],
-        ["virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:5.4.0", {
-          "packageLocation": "./.yarn/virtual/@semantic-release-github-virtual-ff7245ee36b5d7171de39d099f626e22346c24406a9bb912af28245dd2b53f04/node_modules/@semantic-release/github/",
-          "packageDependencies": [
-            ["@semantic-release/github", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:5.4.0"],
-            ["@octokit/rest", "npm:16.28.2"],
-            ["@semantic-release/error", "npm:2.2.0"],
-            ["aggregate-error", "npm:3.0.0"],
-            ["bottleneck", "npm:2.19.1"],
-            ["debug", "npm:4.1.1"],
-            ["dir-glob", "npm:2.2.2"],
-            ["fs-extra", "npm:8.0.1"],
-            ["globby", "npm:9.2.0"],
-            ["http-proxy-agent", "npm:2.1.0"],
-            ["https-proxy-agent", "npm:2.2.1"],
-            ["issue-parser", "npm:4.0.0"],
-            ["lodash", "npm:4.17.11"],
-            ["mime", "npm:2.4.4"],
-            ["p-filter", "npm:2.1.0"],
-            ["p-retry", "npm:4.1.0"],
-            ["parse-github-url", "npm:1.0.2"],
-            ["semantic-release", "npm:15.13.16"],
             ["url-join", "npm:4.0.0"]
           ]
         }],
@@ -2205,22 +2136,6 @@ function $$SETUP_STATE(hydrateRuntimeState) {
             ["into-stream", "npm:5.1.0"],
             ["lodash", "npm:4.17.11"],
             ["semantic-release", null]
-          ]
-        }],
-        ["virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:7.2.0", {
-          "packageLocation": "./.yarn/virtual/@semantic-release-release-notes-generator-virtual-4e205350d979dda40d2f03c3c44c0d04b01a72de373df690f3a67bf69f9791f7/node_modules/@semantic-release/release-notes-generator/",
-          "packageDependencies": [
-            ["@semantic-release/release-notes-generator", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:7.2.0"],
-            ["conventional-changelog-angular", "npm:5.0.3"],
-            ["conventional-changelog-writer", "npm:4.0.6"],
-            ["conventional-commits-filter", "npm:2.0.2"],
-            ["conventional-commits-parser", "npm:3.0.3"],
-            ["debug", "npm:4.1.1"],
-            ["get-stream", "npm:5.1.0"],
-            ["import-from", "npm:3.0.0"],
-            ["into-stream", "npm:5.1.0"],
-            ["lodash", "npm:4.17.11"],
-            ["semantic-release", "npm:15.13.16"]
           ]
         }],
         ["virtual:4b6ea9b95ce62f3c66ee100cc9db079941c4ca18ee1d09b2c8ab5934c3da7dfa83161b7faed0c8be0bc226e1217f74a7b2f96c6ce5a19553c2fddee84a41cdcf#npm:7.2.0", {
