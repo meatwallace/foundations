@@ -5,7 +5,7 @@ import { readConfig } from 'jest-config';
 test.skip('it is a valid and up to date jest configuration', () => {
   // if readConfig returns without throwing, we know our config is valid
   const result = readConfig(
-    { config: path.join(__dirname, 'index.js') },
+    { config: path.join(__dirname, 'config.js') },
     __dirname,
   );
 

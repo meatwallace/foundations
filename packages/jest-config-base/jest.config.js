@@ -1,4 +1,4 @@
-const config = require('./index.js');
+const config = require('./config');
 
 module.exports = {
   ...config,

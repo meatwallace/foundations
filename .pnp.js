@@ -20,7 +20,7 @@ function $$SETUP_STATE(hydrateRuntimeState) {
     "ignorePatternData": null,
     "fallbackExclusionList": [
       ["@meatwallace/commitlint-config", ["workspace:packages/commitlint-config"]],
-      ["@meatwallace/eslint-config-base", ["workspace:packages/eslint-config-base"]],
+      ["@meatwallace/eslint-config-base", ["virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#workspace:packages/eslint-config-base", "workspace:packages/eslint-config-base"]],
       ["@meatwallace/foundations", ["workspace:."]],
       ["@meatwallace/jest-config-base", ["workspace:packages/jest-config-base"]],
       ["@meatwallace/prettier-config", ["workspace:packages/prettier-config"]]
@@ -120,7 +120,7 @@ function $$SETUP_STATE(hydrateRuntimeState) {
             ["@commitlint/cli", "npm:8.0.0"],
             ["@commitlint/prompt-cli", "npm:8.0.0"],
             ["@meatwallace/commitlint-config", "workspace:packages/commitlint-config"],
-            ["@meatwallace/eslint-config-base", "workspace:packages/eslint-config-base"],
+            ["@meatwallace/eslint-config-base", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#workspace:packages/eslint-config-base"],
             ["@meatwallace/prettier-config", "workspace:packages/prettier-config"],
             ["@semantic-release/changelog", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:3.0.4"],
             ["@semantic-release/commit-analyzer", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:6.2.0"],
@@ -1785,6 +1785,21 @@ function $$SETUP_STATE(hydrateRuntimeState) {
         }]
       ]],
       ["@meatwallace/eslint-config-base", [
+        ["virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#workspace:packages/eslint-config-base", {
+          "packageLocation": "./.yarn/virtual/@meatwallace-eslint-config-base-virtual-529c75bd51254624539f4d8c78a6e95b02e60bedd87def04811a6f1f1dd48193/",
+          "packageDependencies": [
+            ["@meatwallace/eslint-config-base", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#workspace:packages/eslint-config-base"],
+            ["@meatwallace/jest-config-base", "workspace:packages/jest-config-base"],
+            ["@types/eslint", "npm:4.16.6"],
+            ["babel-eslint", "virtual:529c75bd51254624539f4d8c78a6e95b02e60bedd87def04811a6f1f1dd481937e6975c5744e22f7275a5af8134209fd43b447120ebe66e56de5b5cf29c55591#npm:10.0.2"],
+            ["eslint", "npm:6.0.1"],
+            ["eslint-import-resolver-node", "npm:0.3.2"],
+            ["eslint-plugin-eslint-comments", "virtual:529c75bd51254624539f4d8c78a6e95b02e60bedd87def04811a6f1f1dd481937e6975c5744e22f7275a5af8134209fd43b447120ebe66e56de5b5cf29c55591#npm:3.1.1"],
+            ["eslint-plugin-import", "virtual:529c75bd51254624539f4d8c78a6e95b02e60bedd87def04811a6f1f1dd481937e6975c5744e22f7275a5af8134209fd43b447120ebe66e56de5b5cf29c55591#npm:2.18.0"],
+            ["eslint-plugin-jest", "virtual:529c75bd51254624539f4d8c78a6e95b02e60bedd87def04811a6f1f1dd481937e6975c5744e22f7275a5af8134209fd43b447120ebe66e56de5b5cf29c55591#npm:22.7.2"],
+            ["eslint-plugin-unicorn", "virtual:529c75bd51254624539f4d8c78a6e95b02e60bedd87def04811a6f1f1dd481937e6975c5744e22f7275a5af8134209fd43b447120ebe66e56de5b5cf29c55591#npm:9.1.1"]
+          ]
+        }],
         ["workspace:packages/eslint-config-base", {
           "packageLocation": "./packages/eslint-config-base/",
           "packageDependencies": [
@@ -1793,6 +1808,7 @@ function $$SETUP_STATE(hydrateRuntimeState) {
             ["@types/eslint", "npm:4.16.6"],
             ["babel-eslint", "virtual:b2aadd09894d447c42a0dd2c8753d05cfe5d28d1061658c683615915339651d595438062190f5e75425de7387500692023505f4e9894090e04acbb56bec3eec3#npm:10.0.2"],
             ["eslint", "npm:6.0.1"],
+            ["eslint-import-resolver-node", null],
             ["eslint-plugin-eslint-comments", "virtual:b2aadd09894d447c42a0dd2c8753d05cfe5d28d1061658c683615915339651d595438062190f5e75425de7387500692023505f4e9894090e04acbb56bec3eec3#npm:3.1.1"],
             ["eslint-plugin-import", "virtual:b2aadd09894d447c42a0dd2c8753d05cfe5d28d1061658c683615915339651d595438062190f5e75425de7387500692023505f4e9894090e04acbb56bec3eec3#npm:2.18.0"],
             ["eslint-plugin-jest", "virtual:b2aadd09894d447c42a0dd2c8753d05cfe5d28d1061658c683615915339651d595438062190f5e75425de7387500692023505f4e9894090e04acbb56bec3eec3#npm:22.7.2"],
@@ -1810,7 +1826,7 @@ function $$SETUP_STATE(hydrateRuntimeState) {
             ["@commitlint/cli", "npm:8.0.0"],
             ["@commitlint/prompt-cli", "npm:8.0.0"],
             ["@meatwallace/commitlint-config", "workspace:packages/commitlint-config"],
-            ["@meatwallace/eslint-config-base", "workspace:packages/eslint-config-base"],
+            ["@meatwallace/eslint-config-base", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#workspace:packages/eslint-config-base"],
             ["@meatwallace/prettier-config", "workspace:packages/prettier-config"],
             ["@semantic-release/changelog", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:3.0.4"],
             ["@semantic-release/commit-analyzer", "virtual:387229af71a4bda7b56b110f0c13f019cb75914422cbce2af2afa3bf5940bb45961edb9c5b7c5825d3a0bac24a1f9bb89c11ed08dbf4ab8417769a2e36d30697#npm:6.2.0"],
@@ -2956,6 +2972,19 @@ function $$SETUP_STATE(hydrateRuntimeState) {
             ["@babel/traverse", "npm:7.4.5"],
             ["@babel/types", "npm:7.4.4"],
             ["eslint", null],
+            ["eslint-scope", "npm:3.7.1"],
+            ["eslint-visitor-keys", "npm:1.0.0"]
+          ]
+        }],
+        ["virtual:529c75bd51254624539f4d8c78a6e95b02e60bedd87def04811a6f1f1dd481937e6975c5744e22f7275a5af8134209fd43b447120ebe66e56de5b5cf29c55591#npm:10.0.2", {
+          "packageLocation": "./.yarn/virtual/babel-eslint-virtual-fa67eaf3125805c50281f225a131a02b7195932ce2b073453416a610d477409d/node_modules/babel-eslint/",
+          "packageDependencies": [
+            ["babel-eslint", "virtual:529c75bd51254624539f4d8c78a6e95b02e60bedd87def04811a6f1f1dd481937e6975c5744e22f7275a5af8134209fd43b447120ebe66e56de5b5cf29c55591#npm:10.0.2"],
+            ["@babel/code-frame", "npm:7.0.0"],
+            ["@babel/parser", "npm:7.4.5"],
+            ["@babel/traverse", "npm:7.4.5"],
+            ["@babel/types", "npm:7.4.4"],
+            ["eslint", "npm:6.0.1"],
             ["eslint-scope", "npm:3.7.1"],
             ["eslint-visitor-keys", "npm:1.0.0"]
           ]
@@ -4609,6 +4638,15 @@ function $$SETUP_STATE(hydrateRuntimeState) {
             ["ignore", "npm:5.1.2"]
           ]
         }],
+        ["virtual:529c75bd51254624539f4d8c78a6e95b02e60bedd87def04811a6f1f1dd481937e6975c5744e22f7275a5af8134209fd43b447120ebe66e56de5b5cf29c55591#npm:3.1.1", {
+          "packageLocation": "./.yarn/virtual/eslint-plugin-eslint-comments-virtual-484f467b2a572f39ae0c70e0aafc1ee1acd0975506ff7317e7e26ef79ce29d46/node_modules/eslint-plugin-eslint-comments/",
+          "packageDependencies": [
+            ["eslint-plugin-eslint-comments", "virtual:529c75bd51254624539f4d8c78a6e95b02e60bedd87def04811a6f1f1dd481937e6975c5744e22f7275a5af8134209fd43b447120ebe66e56de5b5cf29c55591#npm:3.1.1"],
+            ["escape-string-regexp", "npm:1.0.5"],
+            ["eslint", "npm:6.0.1"],
+            ["ignore", "npm:5.1.2"]
+          ]
+        }],
         ["virtual:b2aadd09894d447c42a0dd2c8753d05cfe5d28d1061658c683615915339651d595438062190f5e75425de7387500692023505f4e9894090e04acbb56bec3eec3#npm:3.1.1", {
           "packageLocation": "./.yarn/virtual/eslint-plugin-eslint-comments-virtual-bf4174031d82b2f9efc08cfc411a6b50b2e1c6aeb6a06c19d140b1fcf3071876/node_modules/eslint-plugin-eslint-comments/",
           "packageDependencies": [
@@ -4629,6 +4667,24 @@ function $$SETUP_STATE(hydrateRuntimeState) {
             ["debug", "npm:2.6.9"],
             ["doctrine", "npm:1.5.0"],
             ["eslint", null],
+            ["eslint-import-resolver-node", "npm:0.3.2"],
+            ["eslint-module-utils", "npm:2.4.0"],
+            ["has", "npm:1.0.3"],
+            ["lodash", "npm:4.17.11"],
+            ["minimatch", "npm:3.0.4"],
+            ["read-pkg-up", "npm:2.0.0"],
+            ["resolve", "npm:1.11.1"]
+          ]
+        }],
+        ["virtual:529c75bd51254624539f4d8c78a6e95b02e60bedd87def04811a6f1f1dd481937e6975c5744e22f7275a5af8134209fd43b447120ebe66e56de5b5cf29c55591#npm:2.18.0", {
+          "packageLocation": "./.yarn/virtual/eslint-plugin-import-virtual-dc19df1c4bedf57bffe714d6e6baa83456d9495cbb6615b043fb8249cc9116f4/node_modules/eslint-plugin-import/",
+          "packageDependencies": [
+            ["eslint-plugin-import", "virtual:529c75bd51254624539f4d8c78a6e95b02e60bedd87def04811a6f1f1dd481937e6975c5744e22f7275a5af8134209fd43b447120ebe66e56de5b5cf29c55591#npm:2.18.0"],
+            ["array-includes", "npm:3.0.3"],
+            ["contains-path", "npm:0.1.0"],
+            ["debug", "npm:2.6.9"],
+            ["doctrine", "npm:1.5.0"],
+            ["eslint", "npm:6.0.1"],
             ["eslint-import-resolver-node", "npm:0.3.2"],
             ["eslint-module-utils", "npm:2.4.0"],
             ["has", "npm:1.0.3"],
@@ -4665,6 +4721,13 @@ function $$SETUP_STATE(hydrateRuntimeState) {
             ["eslint", null]
           ]
         }],
+        ["virtual:529c75bd51254624539f4d8c78a6e95b02e60bedd87def04811a6f1f1dd481937e6975c5744e22f7275a5af8134209fd43b447120ebe66e56de5b5cf29c55591#npm:22.7.2", {
+          "packageLocation": "./.yarn/virtual/eslint-plugin-jest-virtual-055563ece64e5cb2e79f7d0c9a35494e3f9cd0b603b35a71b9e29d56f713a8c3/node_modules/eslint-plugin-jest/",
+          "packageDependencies": [
+            ["eslint-plugin-jest", "virtual:529c75bd51254624539f4d8c78a6e95b02e60bedd87def04811a6f1f1dd481937e6975c5744e22f7275a5af8134209fd43b447120ebe66e56de5b5cf29c55591#npm:22.7.2"],
+            ["eslint", "npm:6.0.1"]
+          ]
+        }],
         ["virtual:b2aadd09894d447c42a0dd2c8753d05cfe5d28d1061658c683615915339651d595438062190f5e75425de7387500692023505f4e9894090e04acbb56bec3eec3#npm:22.7.2", {
           "packageLocation": "./.yarn/virtual/eslint-plugin-jest-virtual-73f75e4f9a827302ffdccd951373e565e69eac1165c57c2ac366d618d60003fe/node_modules/eslint-plugin-jest/",
           "packageDependencies": [
@@ -4680,6 +4743,25 @@ function $$SETUP_STATE(hydrateRuntimeState) {
             ["eslint-plugin-unicorn", "npm:9.1.1"],
             ["clean-regexp", "npm:1.0.0"],
             ["eslint", null],
+            ["eslint-ast-utils", "npm:1.1.0"],
+            ["import-modules", "npm:1.1.0"],
+            ["lodash.camelcase", "npm:4.3.0"],
+            ["lodash.defaultsdeep", "npm:4.6.0"],
+            ["lodash.kebabcase", "npm:4.1.1"],
+            ["lodash.snakecase", "npm:4.1.1"],
+            ["lodash.topairs", "npm:4.3.0"],
+            ["lodash.upperfirst", "npm:4.3.1"],
+            ["regexpp", "npm:2.0.1"],
+            ["reserved-words", "npm:0.1.2"],
+            ["safe-regex", "npm:2.0.2"]
+          ]
+        }],
+        ["virtual:529c75bd51254624539f4d8c78a6e95b02e60bedd87def04811a6f1f1dd481937e6975c5744e22f7275a5af8134209fd43b447120ebe66e56de5b5cf29c55591#npm:9.1.1", {
+          "packageLocation": "./.yarn/virtual/eslint-plugin-unicorn-virtual-44a4e56a65cdb437d398b7a89ab0f0b9555fe03a55163375668916d8fa21e1e7/node_modules/eslint-plugin-unicorn/",
+          "packageDependencies": [
+            ["eslint-plugin-unicorn", "virtual:529c75bd51254624539f4d8c78a6e95b02e60bedd87def04811a6f1f1dd481937e6975c5744e22f7275a5af8134209fd43b447120ebe66e56de5b5cf29c55591#npm:9.1.1"],
+            ["clean-regexp", "npm:1.0.0"],
+            ["eslint", "npm:6.0.1"],
             ["eslint-ast-utils", "npm:1.1.0"],
             ["import-modules", "npm:1.1.0"],
             ["lodash.camelcase", "npm:4.3.0"],
