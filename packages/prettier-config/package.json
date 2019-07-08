@@ -1,6 +1,6 @@
 {
   "name": "@meatwallace/prettier-config",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "personal prettier configuration",
   "author": "Geoff Whatley <me@geoffwhatley.com> (https://geoffwhatley.com/)",
   "license": "MIT",
@@ -22,7 +22,7 @@
   },
   "scripts": {},
   "devDependencies": {
-    "@meatwallace/jest-config-base": "1.2.0",
+    "@meatwallace/jest-config-base": "workspace:*",
     "ajv": "6.10.0",
     "node-fetch": "2.6.0"
   },

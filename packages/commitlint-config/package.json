@@ -1,6 +1,6 @@
 {
   "name": "@meatwallace/commitlint-config",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "personal commitlint configuration",
   "author": "Geoff Whatley <me@geoffwhatley.com> (https://geoffwhatley.com/)",
   "license": "MIT",
@@ -22,7 +22,7 @@
   },
   "scripts": {},
   "devDependencies": {
-    "@meatwallace/jest-config-base": "1.2.0"
+    "@meatwallace/jest-config-base": "workspace:*"
   },
   "publishConfig": {
     "access": "public"
