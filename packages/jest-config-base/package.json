@@ -5,12 +5,6 @@
   "author": "Geoff Whatley <me@geoffwhatley.com> (https://geoffwhatley.com/)",
   "license": "MIT",
   "main": "index.js",
-  "files": [
-    "CHANGELOG.md",
-    "README.md",
-    "index.js",
-    "package.json"
-  ],
   "homepage": "https://github.com/meatwallace/foundations/tree/master/packages/jest-config-base#readme",
   "repository": {
     "type": "git",
@@ -27,6 +21,13 @@
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+    "CHANGELOG.md",
+    "config.js",
+    "index.js",
+    "package.json",
+    "README.md"
+  ],
   "keywords": [
     "jest",
     "config"

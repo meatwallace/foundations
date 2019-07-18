@@ -59,7 +59,7 @@ jobs:
       - checkout
       - run:
           name: Lint
-          command: yarn lint:ci
+          command: yarn lint **/*.js
 
   test:
     <<: *defaults
@@ -72,7 +72,7 @@ jobs:
       - checkout
       - run:
           name: Run Tests
-          command: yarn test:ci
+          command: yarn test --bail
 
   release:
     <<: *defaults
@@ -104,7 +104,7 @@ workflows:
           requires:
             - install_dependencies
       - release:
-          context: semantic-release
+          context: yarks
           requires:
             - lint
             - test

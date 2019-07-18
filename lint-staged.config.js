@@ -1,4 +1,9 @@
 module.exports = {
-  '**/*.{js,json,md,yml}': ['prettier-eslint --write', 'git add'],
-  '**/*.js': ['jest --bail --findRelatedTests', 'flow focus-check', 'git add'],
+  '*.{json,md,yml}': ['yarn format', 'git add'],
+  '*.js': [
+    'yarn format',
+    'yarn fix',
+    'yarn test --bail --findRelatedTests',
+    'git add',
+  ],
 };

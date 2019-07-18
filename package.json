@@ -15,12 +15,11 @@
   },
   "scripts": {
     "commit": "commit",
-    "lint": "prettier-eslint",
-    "lint:ci": "eslint --resolve-plugins-relative-to packages/eslint-config-base **/*.js",
-    "lint:fix": "prettier-eslint --write",
-    "test": "jest --watch",
-    "test:ci": "jest --bail",
-    "release": "multi-semantic-release --execasync"
+    "fix": "yarn lint --fix",
+    "format": "prettier --write",
+    "lint": "eslint --resolve-plugins-relative-to packages/eslint-config-base",
+    "test": "jest",
+    "release": "release-workspaces"
   },
   "devDependencies": {
     "@babel/core": "7.4.5",
@@ -30,35 +29,21 @@
     "@meatwallace/commitlint-config": "workspace:*",
     "@meatwallace/eslint-config-base": "workspace:*",
     "@meatwallace/prettier-config": "workspace:*",
-    "@semantic-release/changelog": "3.0.4",
-    "@semantic-release/commit-analyzer": "6.2.0",
-    "@semantic-release/git": "7.0.12",
-    "@semantic-release/github": "5.4.0",
-    "@semantic-release/release-notes-generator": "7.2.0",
     "@types/chalk": "2.2.0",
+    "@types/prettier": "1.16.4",
+    "@yarks/cli": "1.1.3",
     "babel-jest": "24.8.0",
     "chalk": "2.4.2",
-    "cosmiconfig": "5.2.1",
     "eslint": "6.0.1",
+    "eslint-import-resolver-node": "0.3.2",
     "husky": "3.0.0",
     "indent-string": "4.0.0",
     "jest": "24.8.0",
     "lint-staged": "9.0.2",
-    "multi-semantic-release": "1.1.0",
-    "prettier-eslint-cli": "5.0.0",
-    "require-in-the-middle": "4.0.0",
-    "rxjs": "6.5.2",
-    "semantic-release": "15.13.16"
+    "prettier": "1.18.2",
+    "rxjs": "6.5.2"
   },
-  "resolutions": {
-    "@semantic-release/npm": "github:meatwallace/npm#3aa2e61"
-  },
-  "// tooling configuration": "",
   "workspaces": [
     "packages/*"
-  ],
-  "dependencies": {
-    "@semantic-release/npm": "github:meatwallace/npm#3aa2e61",
-    "eslint-import-resolver-node": "0.3.2"
-  }
+  ]
 }
