@@ -1,11 +1,5 @@
-const CONFIG_PACKAGE = '@meatwallace/eslint-config-base';
-
 let config = {
-  extends: CONFIG_PACKAGE,
+  extends: '@meatwallace/eslint-config-base',
 };
-
-// if (process.env.PRETTIER_ESLINT === 'true') {
-//   config.resolvePluginsRelativeTo = require.resolve(CONFIG_PACKAGE);
-// }
 
 module.exports = config;
