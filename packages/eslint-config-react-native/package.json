@@ -1,0 +1,37 @@
+{
+  "name": "@meatwallace/eslint-config-react-native",
+  "version": "1.0.0-development",
+  "description": "personal eslint configuration used for React Native projects",
+  "author": "Geoff Whatley <me@geoffwhatley.com> (https://geoffwhatley.com/)",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "CHANGELOG.md",
+    "README.md",
+    "index.js",
+    "package.json"
+  ],
+  "homepage": "https://github.com/meatwallace/foundations/tree/master/packages/eslint-config-react-native#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meatwallace/foundations.git",
+    "directory": "packages/eslint-config-react-native"
+  },
+  "bugs": {
+    "url": "https://github.com/meatwallace/foundations/issues"
+  },
+  "scripts": {},
+  "devDependencies": {
+    "@meatwallace/jest-config-base": "1.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "^6.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "eslint",
+    "config"
+  ]
+}
